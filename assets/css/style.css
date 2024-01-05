@@ -48,3 +48,22 @@
         margin-left: 5px;
     }
 }
+
+
+/*################################### css for slider section#################################*/
+
+.mainslider .carousel-inner,
+.mainslider .carousel-item,
+.mainslider .carousel-item>img {
+    height: 400px;
+}
+
+.mainslider .carousel-item>img {
+    object-fit: cover;
+}
+
+.mainslider.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
