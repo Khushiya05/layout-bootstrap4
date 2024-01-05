@@ -1,69 +1,73 @@
-.OurNavbar.navbar-dark .navbar-nav .nav-link {
-    color: var(--text-color);
-}
-
-.navbar.OurNavbar {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.OurNavbar .navbar-brand {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.OurNavbar.navbar-dark .navbar-nav .nav-link {
-    color: var(--text-color);
-    height: 56px;
-    line-height: 56px;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.OurNavbar.navbar-dark .navbar-nav .nav-link:focus,
-.OurNavbar.navbar-dark .navbar-nav .active>.nav-link,
-.OurNavbar.navbar-dark .navbar-nav .nav-link.active,
-.OurNavbar.navbar-dark .navbar-nav .nav-link.show,
-.OurNavbar.navbar-dark .navbar-nav .show>.nav-link {
-    color: var(--color-orange);
-}
-
-@keyframes navbarAnimation {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
-}
-
-.OurNavbar.navbar-dark .navbar-nav .nav-link:hover {
-    animation: navbarAnimation 0.3s ease-out;
-    color: var(--color-orange);
-    border-bottom: 3px solid var(--color-orange);
-}
-
-@media all and (min-width:992px) {
-    .OurNavbar li.nav-item {
-        margin-left: 5px;
-    }
-}
-
-
-/*################################### css for slider section#################################*/
-
-.mainslider .carousel-inner,
-.mainslider .carousel-item,
-.mainslider .carousel-item>img {
-    height: 400px;
-}
-
-.mainslider .carousel-item>img {
-    object-fit: cover;
-}
-
-.mainslider.carousel-caption {
-    top: 50%;
-    bottom: auto;
-    transform: translateY(-50%);
-}
+        .OurNavbar.navbar-dark .navbar-nav .nav-link {
+            color: var(--text-color);
+        }
+        
+        .navbar.OurNavbar {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        
+        .OurNavbar .navbar-brand {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        
+        .OurNavbar.navbar-dark .navbar-nav .nav-link {
+            color: var(--text-color);
+            height: 56px;
+            line-height: 56px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        
+        .OurNavbar.navbar-dark .navbar-nav .nav-link:focus,
+        .OurNavbar.navbar-dark .navbar-nav .active>.nav-link,
+        .OurNavbar.navbar-dark .navbar-nav .nav-link.active,
+        .OurNavbar.navbar-dark .navbar-nav .nav-link.show,
+        .OurNavbar.navbar-dark .navbar-nav .show>.nav-link {
+            color: var(--color-orange);
+        }
+        
+        @keyframes navbarAnimation {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+        
+        .OurNavbar.navbar-dark .navbar-nav .nav-link:hover {
+            animation: navbarAnimation 0.3s ease-out;
+            color: var(--color-orange);
+            border-bottom: 3px solid var(--color-orange);
+        }
+        
+        @media all and (min-width:992px) {
+            .OurNavbar li.nav-item {
+                margin-left: 5px;
+            }
+        }
+        /*################################### css for slider section#################################*/
+        
+        .mainslider .carousel-inner,
+        .mainslider .carousel-item,
+        .mainslider .carousel-item>img {
+            height: 400px;
+        }
+        
+        .mainslider .carousel-item>img {
+            object-fit: cover;
+        }
+        
+        .mainslider.carousel-caption {
+            top: 50%;
+            bottom: auto;
+            transform: translateY(-50%);
+        }
+        
+        .IconThumbnail:hover {
+            border: 2px solid black;
+            padding-top: 4px;
+            outline: 2px solid var(--color-orange);
+        }
