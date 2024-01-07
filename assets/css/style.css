@@ -98,3 +98,23 @@
      margin: 0 auto 15px;
      border: 4px solid var(--text-color);
  }
+ 
+ .services .list-group-item {
+     display: flex;
+ }
+ 
+ .services .list-group-item>* {
+     flex-basis: 50%;
+ }
+ 
+ .services .list-group-item>i {
+     text-align: right;
+     padding-right: 10px;
+ }
+ 
+ .services .list-group-item>span {
+     text-align: left;
+     padding-left: 10px;
+     align-self: center;
+     font-weight: bold;
+ }
