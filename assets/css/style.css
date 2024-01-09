@@ -118,3 +118,8 @@
      align-self: center;
      font-weight: bold;
  }
+ 
+ .ourCard:hover {
+     background-color: var(--color-orange);
+     outline: 4px solid blue;
+ }
